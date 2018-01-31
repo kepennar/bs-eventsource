@@ -1,13 +1,13 @@
 {
   "name": "bs-eventsource",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reason + BuckleScript bindings to EventSource",
   "homepage": "https://github.com/kepennar/bs-eventsource",
   "bugs": "https://github.com/kepennar/bs-eventsource/issues",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kepennar/bs-eventsource"
-  },  
+  },
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
@@ -16,7 +16,11 @@
     "minor-release": "npm version minor && npm publish && git push --follow-tags",
     "major-release": "npm version major && npm publish && git push --follow-tags"
   },
-  "keywords": ["reason", "BuckleScript", "EventSource"],
+  "keywords": [
+    "reason",
+    "BuckleScript",
+    "EventSource"
+  ],
   "author": "kepennar",
   "license": "MIT",
   "devDependencies": {
