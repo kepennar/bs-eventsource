@@ -1,6 +1,6 @@
 # bs-eventsource
 
-Work In Progress
+[_Work In Progress_]
 
 [BuckleScript](https://github.com/bloomberg/bucklescript) bindings for the [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) api.
 
